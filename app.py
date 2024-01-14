@@ -1,5 +1,3 @@
-from dotenv import load_dotenv
-load_dotenv()  
 
 import streamlit as st
 import os
@@ -8,10 +6,6 @@ import textwrap
 from PIL import Image
 
 import google.generativeai as genai
-
-
-os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 
 def get_gemini_response(input,image,prompt):
