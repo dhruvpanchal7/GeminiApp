@@ -33,7 +33,7 @@ def input_image_setup(uploaded_file):
 
 
 
-st.set_page_config(page_title="Gemini Image Processing",layout="wide")
+st.set_page_config(page_title="Gemini Image Information Extractor",layout="wide")
 st.markdown("<h1 style='text-align: center'>Gemini App ♊</h1>", unsafe_allow_html=True)
 st.markdown("*Upload an image of your choice. If you desire specific details, enter a prompt, press enter, and then click 'Describe the Image' for customized information. For a comprehensive overview, simply click the 'Describe the Image' button to receive all details about the image. After viewing the image, scroll down to see the response.*")
 input=st.text_input("Enter Your Prompt: ",key="input")
